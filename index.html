@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Piyush Rawat - Cybersecurity, Ethical Hacking and VAPT portfolio.">
+  <meta name="theme-color" content="#080d13">
+  <title>Piyush Rawat | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="Main navigation">
+    <a class="logo" href="#home">PIYUSH<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li><li><a class="nav-cta" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container" id="home">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="pulse"></span> ENTRY-LEVEL CYBERSECURITY PROFESSIONAL</p>
+      <h1>Hi, I'm <span>Piyush Rawat</span></h1>
+      <h2>Cybersecurity <i>|</i> Ethical Hacking <i>|</i> VAPT</h2>
+      <p class="intro">I practice network scanning and vulnerability assessment through hands-on labs. I’m looking for an entry-level cybersecurity opportunity where I can apply my knowledge and keep learning.</p>
+      <div class="actions">
+        <a class="button primary" href="#projects">Explore Projects <span>↗</span></a>
+        <a class="button secondary" href="#contact">Contact Me</a>
+      </div>
+      <div class="social-row">
+        <a href="https://linkedin.com/in/piyushrawat-v2" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://tryhackme.com/p/Piyushrawat" target="_blank" rel="noopener noreferrer">TryHackMe ↗</a>
+        <a href="https://github.com/PIYUSHR03" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="mailto:piyushkumarbbu03@gmail.com">Email ↗</a>
+      </div>
+    </div>
+    <div class="hero-profile">
+      <div class="profile-photo-wrap">
+        <img src="assets/Piyush-rawat.png" alt="Piyush Rawat - Cybersecurity portfolio profile photo" class="profile-photo">
+      </div>
+      <p class="profile-caption"><span class="pulse"></span> CYBERSECURITY ENTHUSIAST</p>
+      <div class="mini-terminal" aria-label="Interactive demo terminal">
+        <div class="mini-terminal-bar">
+          <div class="traffic"><b></b><b></b><b></b></div>
+          <span>guest@kali: ~</span>
+        </div>
+        <div class="mini-terminal-body">
+          <p class="terminal-welcome">Welcome to the demo terminal. Type <strong>help</strong> to explore.</p>
+          <div class="terminal-output" id="terminalOutput" aria-live="polite"></div>
+          <form class="terminal-form" id="terminalForm">
+            <label for="terminalInput"><span>guest@kali</span>:~$</label>
+            <input id="terminalInput" type="text" autocomplete="off" spellcheck="false" placeholder="try: help" aria-label="Enter a demo terminal command">
+            <button type="submit" aria-label="Run command">↵</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="about">
+    <div class="section-heading"><p class="kicker">// INTRODUCTION</p><h2>About <span>Me</span></h2></div>
+    <div class="panel about-panel">
+      <p>Recently completed my Ethical Hacking course at WsCube Tech. Through my own lab setup, I practice network scanning and Vulnerability Assessment and Penetration Testing (VAPT) using Kali Linux, Nmap, Wireshark and Metasploit.</p>
+      <p>I am currently looking for an entry-level opportunity in cybersecurity where I can apply my knowledge, develop practical skills and learn from experienced security professionals.</p>
+      <div class="tags"><span>Ethical Hacking</span><span>Network Security</span><span>VAPT</span><span>Linux</span></div>
+    </div>
+  </section>
+
+  <section class="section container" id="skills">
+    <div class="section-heading"><p class="kicker">// TECHNICAL EXPERTISE</p><h2>Technical <span>Skills</span></h2></div>
+    <div class="skills-grid">
+      <article class="skill-card"><div class="skill-icon">⌘</div><h3>Kali Linux &amp; Windows</h3><p>Command-line navigation, file permissions and basic network configuration.</p></article>
+      <article class="skill-card"><div class="skill-icon">⌁</div><h3>Networking Fundamentals</h3><p>TCP/IP, OSI Model, IP addressing, DNS, common ports and services.</p></article>
+      <article class="skill-card"><div class="skill-icon">⌕</div><h3>Nmap</h3><p>Network discovery, port scanning, service version detection and OS detection.</p></article>
+      <article class="skill-card"><div class="skill-icon">⚙</div><h3>Metasploit Framework</h3><p>Vulnerability assessment and exploitation concepts in authorized lab environments.</p></article>
+      <article class="skill-card"><div class="skill-icon">⌗</div><h3>Netcat</h3><p>Banner grabbing, port listening and basic network connections in lab environments.</p></article>
+      <article class="skill-card"><div class="skill-icon">◉</div><h3>Wireshark</h3><p>Packet capturing, network traffic analysis and inspecting TCP, HTTP and FTP protocols.</p></article>
+    </div>
+  </section>
+
+  <section class="section container" id="projects">
+    <div class="section-heading"><p class="kicker">// HANDS-ON EXPERIENCE</p><h2>Featured <span>Project</span></h2></div>
+    <article class="panel project-panel">
+      <div class="project-heading"><div><span class="project-label">LAB PROJECT</span><h3>VAPT Assessment on Metasploitable 2</h3></div><span class="project-mark">⌘</span></div>
+      <p class="muted project-summary">Conducted a vulnerability assessment and penetration testing exercise in a controlled virtual lab using Kali Linux and Metasploitable 2.</p>
+      <div class="project-grid">
+        <div class="project-step"><h4>01. Network Scanning</h4><p>Scanned the target machine using Nmap to identify open ports and running service versions.</p></div>
+        <div class="project-step"><h4>02. FTP Vulnerability Assessment</h4><p>Assessed the known vsftpd 2.3.4 backdoor vulnerability on port 21 using Metasploit in the isolated lab and documented the observed access.</p></div>
+        <div class="project-step"><h4>03. Service Enumeration</h4><p>Examined the open bind shell service on port 1524 using Netcat and reviewed a misconfigured NFS share on port 2049.</p></div>
+        <div class="project-step"><h4>04. Vulnerability Reporting</h4><p>Prepared a VAPT report documenting identified vulnerabilities, risk levels and basic remediation recommendations.</p></div>
+      </div>
+      <div class="tags"><span>Kali Linux</span><span>Nmap</span><span>Metasploit</span><span>Netcat</span><span>Metasploitable 2</span></div>
+      <p class="fine-print">This was a controlled educational lab project, not a real-world client assessment.</p>
+    </article>
+  </section>
+
+  <section class="section container" id="labs">
+    <div class="section-heading"><p class="kicker">// CONTINUOUS LEARNING</p><h2>Practice &amp; <span>Labs</span></h2></div>
+    <div class="two-grid">
+      <article class="panel lab-card"><span class="number">01</span><h3>Home Lab Setup</h3><p>Created a virtual lab using Kali Linux and Metasploitable 2 to practice network scanning and VAPT in a controlled environment.</p></article>
+      <article class="panel lab-card"><span class="number">02</span><h3>TryHackMe</h3><p>Practicing cybersecurity fundamentals, Linux commands and networking concepts through hands-on virtual labs.</p><a class="text-link" href="https://tryhackme.com/p/Piyushrawat" target="_blank" rel="noopener noreferrer">View TryHackMe Profile ↗</a></article>
+    </div>
+  </section>
+
+  <section class="section container" id="education">
+    <div class="section-heading"><p class="kicker">// BACKGROUND</p><h2>Education &amp; <span>Certification</span></h2></div>
+    <div class="timeline">
+      <article class="timeline-item"><span class="date">19 AUG – 19 OCT 2026</span><h3>Ethical Hacking Course</h3><h4>WsCube Tech</h4><p>Course focused on ethical hacking, cybersecurity fundamentals and practical lab work.</p></article>
+      <article class="timeline-item"><span class="date">2022 – 2026</span><h3>Bachelor of Arts – Economics</h3><h4>R.S.D College, Bhagwanpur</h4><p>Veer Kunwar Singh University, Ara</p></article>
+    </div>
+  </section>
+
+  <section class="section container" id="personal">
+    <div class="personal-grid">
+      <div><div class="section-heading"><p class="kicker">// PERSONAL STRENGTHS</p><h2>Soft <span>Skills</span></h2></div><div class="tags"><span>Attention to Detail</span><span>Quick Learner</span><span>Technical Report Writing</span></div></div>
+      <div><div class="section-heading"><p class="kicker">// COMMUNICATION</p><h2><span>Languages</span></h2></div><div class="tags"><span>Hindi</span><span>English</span></div></div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-heading"><p class="kicker">// GET IN TOUCH</p><h2>Let's <span>Connect</span></h2></div>
+      <p class="muted contact-intro">Interested in cybersecurity opportunities, professional connections and learning experiences. Feel free to reach out.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:piyushkumarbbu03@gmail.com"><span>✉</span><div><h3>Email</h3><p>piyushkumarbbu03@gmail.com</p></div></a>
+        <a class="contact-card" href="https://linkedin.com/in/piyushrawat-v2" target="_blank" rel="noopener noreferrer"><span>in</span><div><h3>LinkedIn</h3><p>linkedin.com/in/piyushrawat-v2</p></div></a>
+        <a class="contact-card" href="https://tryhackme.com/p/Piyushrawat" target="_blank" rel="noopener noreferrer"><span>⌘</span><div><h3>TryHackMe</h3><p>View my learning profile</p></div></a>
+        <a class="contact-card" href="https://github.com/PIYUSHR03" target="_blank" rel="noopener noreferrer"><span>⌥</span><div><h3>GitHub</h3><p>github.com/PIYUSHR03</p></div></a>
+      </div>
+      <a class="button primary email-button" href="mailto:piyushkumarbbu03@gmail.com">Send Me an Email ↗</a>
+      <div class="qr-panel">
+        <div><p class="kicker">// QUICK ACCESS</p><h3>Scan to open my portfolio</h3><p class="muted">Use your phone camera to scan the portfolio QR code.</p><a class="text-link" href="https://bit.ly/4zEa0TC?r=qr" target="_blank" rel="noopener noreferrer">Open QR destination ↗</a></div>
+        <a class="qr-image-link" href="https://bit.ly/4zEa0TC?r=qr" target="_blank" rel="noopener noreferrer" aria-label="Open the portfolio QR destination"><img src="assets/portfolio-qr.png" alt="QR code for Piyush Rawat's portfolio"></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">PIYUSH<span>.</span></a><p>Cybersecurity | Ethical Hacking | VAPT</p><p>© <span id="year"></span> Piyush Rawat</p></div></footer>
+<button class="back-top" id="backToTop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
